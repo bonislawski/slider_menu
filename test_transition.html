@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .pudelko{
+      width:200px;
+      height:100px;
+      background-color: yellow;
+      transition: width 2s;
+          }
+    .pudelko:hover +.pudelko2{
+      width:300px;
+
+    }
+    .pudelko2{
+      width:200px;
+      height:100px;
+      background-color: red;
+      transition: width 2s;
+
+    }
+  </style>
+</head>
+<body>
+    <div class="pudelko"></div>
+    <div class="pudelko2"></div>
+</body>
+</html>
